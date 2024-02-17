@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './toggle-practice.component.css'
 })
 export class TogglePracticeComponent {
-  isToggle: boolean = false;
+  isToggle: boolean = true;
 
   setToggle() {
     this.isToggle = !this.isToggle
