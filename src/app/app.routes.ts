@@ -10,7 +10,6 @@ const routes: Routes = [
     { path: 'practice', component: PracticeComponent },
     { path: 'inc', component: IncrementDecrementComponent },
     { path: 'toggle', component: TogglePracticeComponent },
-
 ];
 
 export { routes };
