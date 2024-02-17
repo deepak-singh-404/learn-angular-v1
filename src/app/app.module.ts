@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { PostService } from './post.service';
 
+
 @NgModule({
     imports: [
         BrowserModule,
@@ -17,9 +18,7 @@ import { PostService } from './post.service';
     //All components
     declarations: [
         AppComponent,
-        PostComponent
-        // TogglePracticeComponent,
-        // IncrementDecrementComponent,
+        PostComponent,
     ],
     providers: [PostService],
     bootstrap: [AppComponent]
